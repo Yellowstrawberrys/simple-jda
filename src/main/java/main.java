@@ -18,6 +18,8 @@ public class main {
         // Set activity (like "playing Something")
         builder.setActivity(Activity.watching("TV"));
 
+        builder.addEventListeners(new commands());
+
         builder.build();
     }
 }
